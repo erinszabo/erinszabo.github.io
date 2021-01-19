@@ -1,0 +1,39 @@
+table{
+    border-style: dotted;
+}
+
+#div1{
+    width: 75%;
+    height: 40px;
+    margin-top: 20px;
+    align-content: left;
+    margin-bottom: 10px;
+    background-color: rgb(255, 185, 188); 
+}
+
+#div2{
+    background-color: cyan;
+    width: 75%;
+    height: 20px;
+    margin-left: 12.5%;
+    top: 10px;
+    position: relative;
+    text-align: center;
+
+}
+.white{
+    background-color: white;
+}
+
+th{
+    background-color: white;
+}
+
+
+tr:nth-of-type(2n-1){
+    background-color: rgb(192, 181, 181);
+}
+
+tr:nth-of-type(2n){
+    background-color: rgb(199, 235, 252);
+}
