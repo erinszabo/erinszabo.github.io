@@ -26,7 +26,16 @@ p {
             color: #0A1511;
             text-shadow: 2px 2px 5px #BBF5E4;}
 
-      #p02 {color: white;}
+      #p02 {color: white;
+            font-size: 25px;
+            color: #0A1511;
+            padding: 40px;}
+
+      #p03 {border: 1px dashed white;
+            font-size: 20px;
+            padding: 20px;
+            color: #05100C;
+            margin: 20px;}
 
       h2  {left: 75px;
            position: absolute; color: #05100C;
@@ -44,5 +53,7 @@ p {
           
       .button:hover {background-color: #45706a; 
                      color: white;}
+
+
   
                      
