@@ -1,5 +1,5 @@
 
-var myTips = ['Keep a plant check in schedule', 
+var myTips = ['Keep a plant check-in schedule', 
                'Check often, water only when needed', 
                'Try different locations if the plant seems unhealthy', 
                "Don't be afraid to trim when needed", 
