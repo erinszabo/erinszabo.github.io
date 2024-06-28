@@ -9,13 +9,17 @@ h1 {
 
   }
 
+body {
+    background-color: #f7ede4;
+  }
+
 
 
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     font-family: 'Montserrat';font-size: 22px;
     margin-left: 3%;
-    background-color: #eee;
+    background-color: #e0d6d1;
     color: #946448;
     cursor: pointer;
     padding: 18px;
@@ -28,7 +32,7 @@ h1 {
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: #c7bcb7;
   }
   
   /* Style the accordion panel. Note: hidden by default */
@@ -36,13 +40,25 @@ h1 {
     font-family: 'Montserrat';
     font-size: 20px;
     padding: 0 18px;
-    background-color: rgb(255, 255, 255);
+    background-color: #f7ede4;
     max-height: 0;
-    text-indent: 20%;
+    text-indent: 5%;
     margin-left: 3%;
     width: 78%;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+  }
+
+  .accordion:before {
+    content: ' \25C7';
+    color: black;
+    padding: 15px;
+  }
+
+  .active:before {
+    content: ' \25C7';
+    color: black;
+    padding: 3px;
   }
 
   .accordion:after {
@@ -51,9 +67,11 @@ h1 {
     color: #777;
     float: right;
     margin-left: 3%;
+
   }
   
   .active:after {
     content: "\002D"; /* Unicode character for "minus" sign (-) */
     font-size: 22px;
+
   }
