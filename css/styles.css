@@ -1,13 +1,28 @@
 @charset "UTF-8";
 
 
+/*********************Text Styles***********************/
 h1 {
-    font-family: 'Julius Sans One';font-size: 22px;
+    font-family: 'Julius Sans One';
     font-size: 100px;
     padding: 10px;
     margin-left: 3%;
 
   }
+
+h2 {
+    font-size: 22px;
+    font-weight: 100;
+    color: #67422c;
+    font-style: italic;
+    text-indent: 2%;
+}
+h3 {
+    font-size: 25px;
+    font-family: 'Julius Sans One';
+    font-weight: bold;
+    text-indent: 4%;
+}
 
 body {
     background-color: #f7ede4;
@@ -15,7 +30,7 @@ body {
 
 
 
-/* Style the buttons that are used to open and close the accordion panel */
+/* *********************Accordion******************************* */
 .accordion {
     font-family: 'Montserrat';font-size: 22px;
     margin-left: 3%;
@@ -40,10 +55,8 @@ body {
     font-family: 'Montserrat';
     font-size: 20px;
     padding: 0 18px;
-    background-color: #f7ede4;
     max-height: 0;
-    text-indent: 5%;
-    margin-left: 3%;
+    margin-left: 5%;
     width: 78%;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -73,5 +86,86 @@ body {
   .active:after {
     content: "\002D"; /* Unicode character for "minus" sign (-) */
     font-size: 22px;
+  }
 
+/************************Buttons*************************/
+
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 10px;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #d8a488;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+/******/
+
+.button-52a {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 10px;
+  }
+  
+  .button-52a:after {
+    content: "";
+    background-color: #dcb8a5;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  .button-52a:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+  
+  @media (min-width: 768px) {
+    .button-52a {
+      padding: 13px 50px 13px;
+    }
   }
