@@ -147,25 +147,45 @@ body {
     margin: 10px;
   }
   
-  .button-52a:after {
-    content: "";
-    background-color: #dcb8a5;
-    width: 100%;
-    z-index: -1;
-    position: absolute;
-    height: 100%;
-    top: 7px;
-    left: 7px;
-    transition: 0.2s;
+.button-52a:after {
+  content: "";
+  background-color: #dcb8a5;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52a:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52a {
+    padding: 13px 50px 13px;
   }
-  
-  .button-52a:hover:after {
-    top: 0px;
-    left: 0px;
-  }
-  
-  @media (min-width: 768px) {
-    .button-52a {
-      padding: 13px 50px 13px;
-    }
-  }
+}
+/*******************Bullet Points***************************/
+
+.points {
+    column-count: 5;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin-top: 0px;
+
+}
+
+
+ul li:before
+{
+    content: "\25C6";
+    margin: 0 1em;   
+ 
+}
