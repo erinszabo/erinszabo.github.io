@@ -12,3 +12,16 @@ for (i = 0; i < acc.length; i++) {
     } 
   });
 }
+////////////// email copy to clipboard /////////////////
+
+
+function copyEmail() {
+    // Get the text field
+    var email = "cohen.erin23@yahoo.com";
+
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(email);
+    
+    // Alert the copied text
+    alert("Copied the text: " + email);
+  }
