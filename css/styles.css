@@ -55,6 +55,7 @@ body {
     padding: 0 18px;
     max-height: 0;
     margin-left: 5%;
+    max-width: 72%;/*1000px;*/
     width: 78%;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
