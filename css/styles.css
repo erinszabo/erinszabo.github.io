@@ -211,12 +211,12 @@ body {
 /*******************Bullet Points***************************/
 
 .points {
-    -webkit-columns: 4 200px;
-    -moz-columns: 4 200px;
-    columns: 4 200px;
-    -webkit-column-gap: 4em;
-    -moz-column-gap: 4em;
-    column-gap: 4em;
+    -webkit-columns: 3 200px;
+    -moz-columns: 3 200px;
+    columns: 3 200px;
+    -webkit-column-gap: 3em;
+    -moz-column-gap: 3em;
+    column-gap: 3em;
 }
 
 ul {
