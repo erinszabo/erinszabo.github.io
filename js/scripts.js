@@ -12,7 +12,7 @@ for (i = 0; i < acc.length; i++) {
     } 
   });
 }
-////////////// email copy to clipboard /////////////////
+//// email copy to clipboard 
 
 function copyEmail() {
     // Get the text field
@@ -24,3 +24,15 @@ function copyEmail() {
     // Alert the copied text
     alert("Copied the text: " + email);
   }
+
+
+//// download resume without opening
+function downloadFile(event) {
+  event.preventDefault();
+  const link = document.createElement('a');
+  link.href = './ErinCohenResume.pdf';
+  link.download = 'ErinCohenResume.pdf';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
