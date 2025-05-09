@@ -31,8 +31,11 @@ body {
 .accordion {
     font-family: 'Montserrat';font-size: 22px;
     margin-left: 3%;
+    /* Previous colors below, want a contrast ratio of at least 5:1 instead
     background-color: #e0d6d1;
-    color: #946448;
+    color: #946448; */
+    background-color: #E2D9D5;
+    color: #754F38;
     cursor: pointer;
     padding: 18px;
     width: 80%;
