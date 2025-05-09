@@ -20,7 +20,7 @@
             <button class="button-52a" role="button">Resume Download</button>
           </a>
         </h1> -->
-        <h1>Erin Cohen 
+        <h1 role="banner">Erin Cohen 
           <a href="./ErinCohenResume.pdf" onclick="downloadFile(event)" class="button-52a" role="button">
             Resume Download
           </a>
@@ -29,8 +29,8 @@
         
 
         <!--Accordion-->
-        <button class="accordion">About </button>
-        <div class="panel" tabindex="0" role="main">
+        <button class="accordion" aria-expanded="false" aria-controls="section1-content" id="toggle-section1">About </button>
+        <div class="panel" tabindex="0" id="toggle-section1" >
           <p>
             <h2>Mission</h2>
             &emsp;Recent graduate in Mathematics and Computer Science from the University of Oregon, eager to launch my career in tech. I bring strong 
@@ -55,8 +55,8 @@
           </p>
         </div>
         
-        <button class="accordion">Projects</button>
-        <div class="panel" tabindex="0" role="main">
+        <button class="accordion" aria-expanded="false" aria-controls="section1-content" id="toggle-section2">Projects</button>
+        <div class="panel" tabindex="0" id="toggle-section2">
           <!--list projects, each should have an image, title, and short description...</p>-->
           
           <h3>
@@ -112,9 +112,9 @@
             </div>
         </div> -->
 
-        <button class="accordion">Contact</button>
+        <button class="accordion" aria-expanded="false" aria-controls="section1-content" id="toggle-section3">Contact</button>
         
-        <div class="panel" tabindex="0" role="main">
+        <div class="panel" tabindex="0" id="toggle-section3">
 
             <br>
 
@@ -141,8 +141,8 @@
         </div>
         -->
 
-        <button class="accordion">Tech Tools</button>
-        <div class="panel" tabindex="0" role="main">
+        <button class="accordion" aria-expanded="false" aria-controls="section1-content" id="toggle-section4">Tech Tools</button>
+        <div class="panel" tabindex="0" id="toggle-section4">
           <br>
           I have experience with the following technologies, though this is not an exhaustive list. <br><br>
 
