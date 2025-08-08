@@ -27,11 +27,11 @@ function copyEmail() {
 
 
 //// download resume without opening
-function downloadFile(event) {
+function downloadFile(event, fileName) {
   event.preventDefault();
   const link = document.createElement('a');
-  link.href = './ErinCohenResume.pdf';
-  link.download = 'ErinCohenResume.pdf';
+  link.href = './' + fileName;
+  link.download = fileName;
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
