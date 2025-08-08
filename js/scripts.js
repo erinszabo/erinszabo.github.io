@@ -16,7 +16,7 @@ for (i = 0; i < acc.length; i++) {
 
 function copyEmail() {
     // Get the text field
-    var email = "cohen.erin23@yahoo.com";
+    var email = "cohen.erin23@gmail.com";
 
     // Copy the text inside the text field
     navigator.clipboard.writeText(email);
